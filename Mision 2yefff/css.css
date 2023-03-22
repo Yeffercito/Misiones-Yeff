@@ -1,0 +1,269 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#container1 {
+    background: #E4FAEE;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#caja1 {
+    display: flex;
+    gap: 1.25rem;
+}
+
+#caja2 {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+#caja3,
+#caja5 {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+#text1,
+#text21 {
+    font-family: aladin;
+    font-size: 2.5rem;
+    color: #015239;
+}
+
+#text22,
+#text31 {
+    font-family: amaranth;
+    font-size: 1.25rem;
+    color: #015239;
+}
+
+#button1,#button81,#button111 {
+    padding: 0.625rem;
+    background-color: #7D56FC;
+    color: white;
+    font-family: amaranth;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 0.313rem;
+}
+
+#button111{
+    font-family: aladin;
+}
+
+#button81{
+    background: #113A2D;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+}
+
+#container2 {
+    background: #113A2D;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 3.125rem;
+
+}
+
+#text41 {
+    font-family: amaranth;
+    font-size: 1.25rem;
+    color: #B8FFE1;
+}
+
+#text5 {
+    font-family: aladin;
+    color: white;
+    font-size: 1.875rem;
+}
+
+.conjunto5 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.313rem;
+
+}
+
+#caja5 {
+    width: 70%;
+    justify-content: space-between;
+}
+
+#container3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #E4FAEE;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+#caja7 {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+#text61,#text91 {
+    font-family: aladin;
+    font-size: 2.5rem;
+    color: #113A2D;
+}
+
+.button37 {
+    border: none;
+    background: none;
+    font-family: amaranth;
+    font-size: 1.25rem;
+    color: #113A2D;
+    padding: 0.625rem;
+}
+
+.button37:hover {
+    background-color: #113A2D;
+    color: white;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+}
+
+#caja8 {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+} 
+
+.img8{
+    width: 13.75rem;
+    height: 10rem;
+}
+
+.conjunto8{
+border-radius: 0.313rem;
+padding: 1.25rem;
+background: white;
+width: 29%;
+font-family: amaranth;
+display: flex;
+flex-direction: column;
+gap: 0.625rem;
+} 
+
+#text81{
+    width: 35%;
+    text-align: left;
+    color: #113A2D;
+    font-size: 0.938rem;
+}
+
+#text82{
+    width: 65%;
+    color: #113A2D;
+    font-size: 0.813rem;
+}  
+
+#container4{
+display: flex;
+flex-direction: column;
+gap: 3.125rem;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 70%;
+font-family: amaranth;
+color: #113A2D;
+}
+
+.conjunto10{
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+    width: 15%;
+    text-align: center;
+}
+
+#caja10{
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.text101{
+font-size: 1.25rem;
+} 
+
+.text102{
+font-size: 0.938rem;
+} 
+
+#container5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 38%;
+    background:#113A2D;
+} 
+
+#text121{
+    color: #B8FFE1;
+    font-size: 2.5rem;
+    font-family: aladin;
+} 
+
+#text122{
+    color: white;
+    font-family: amaranth;
+    font-size: 1.875rem;
+}
+
+#text123{
+    color:white;
+    font-family: amaranth;
+    font-size: 0.938rem;
+} 
+
+#caja12{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+    width: 20%;
+} 
+
+#container6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E4FAEE;
+    width: 100%;
+    height: 100%;
+}
